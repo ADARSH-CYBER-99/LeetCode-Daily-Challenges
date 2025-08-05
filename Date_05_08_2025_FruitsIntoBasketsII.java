@@ -1,3 +1,4 @@
+// Date : 04-08-2025
 class Solution {
     public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
         int n = fruits.length;
@@ -38,3 +39,4 @@ class Solution {
         // Return the total number of fruits that could not be placed in baskets
     }
 }
+
