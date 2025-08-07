@@ -1,7 +1,7 @@
-/* Date : 07-08-2025 */
+// Date : 07-08-2025
 class Solution {
 
-    /**
+    /*
      * Checks whether a given coordinate lies in the upper triangular matrix.
      * Used to restrict DP traversal only to valid paths.
      */
@@ -9,7 +9,7 @@ class Solution {
         return y > x && x >= 0 && x < n && y >= 0 && y < n;
     }
 
-    /**
+    /*
      * Calculates the maximum score by simulating one of the paths from the triangle
      * part of the grid (either original or transposed).
      */
@@ -43,7 +43,7 @@ class Solution {
         return fruits[0][n - 1] + Math.max(dp[1][n - 2], dp[1][n - 1]);
     }
 
-    /**
+    /*
      * Main method to calculate the maximum fruits that can be collected.
      * Runs maxscore on original and transposed grid to simulate both symmetric paths.
      */
@@ -74,3 +74,4 @@ class Solution {
         return ans;
     }
 }
+
