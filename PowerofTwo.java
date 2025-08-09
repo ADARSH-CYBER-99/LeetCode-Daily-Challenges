@@ -1,3 +1,4 @@
+// Date : 09-08-2025
 class Solution {
     
     public boolean isPowerOfTwo(int n) {
@@ -6,5 +7,6 @@ class Solution {
         // For example: 8 -> 1000, 8 - 1 = 7 -> 0111, 1000 & 0111 = 0000
         return n > 0 && (n & (n - 1)) == 0;
     }
+
 
 }
