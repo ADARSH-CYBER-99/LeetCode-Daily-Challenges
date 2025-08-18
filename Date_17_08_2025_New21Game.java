@@ -1,3 +1,4 @@
+// Date : 17-08-2025
 class Solution {
     public double new21Game(int n, int k, int maxPts) {
         // Edge case: if k == 0, Alice never draws, so she ends with 0 points
@@ -33,3 +34,4 @@ class Solution {
         return result;
     }
 }
+
